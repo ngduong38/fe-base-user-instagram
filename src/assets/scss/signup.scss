@@ -1,0 +1,103 @@
+body{
+    
+    .containers{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        .col{
+            background-color: #fff;
+            border: 1px solid #e6e6e6;
+            width: 350px;
+            margin: 10px;
+            padding: 40px;
+            .logo-signup{
+                background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yx/r/WtxJZZ3-9ZP.png);
+                background-position: 0px 0px;
+                background-size: 176px 186px;
+                width: 174px;
+                height: 50px;
+                background-repeat: no-repeat;
+                display: inline-block;
+                cursor: pointer;
+                margin-bottom: 12px;
+            }
+            .info{
+                font-weight: 600px;
+                line-height: 20px;
+                font-size: 17px;
+                color: #999;
+            }
+            .facebook-avatar{
+                display: inline-block;
+                font: inherit;
+                font-size: 100%;
+                margin-right: 8px;
+                position: relative;
+                background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png);
+                top: 3px;
+                vertical-align: baseline;
+                background-repeat: no-repeat;
+                background-position: -414px -259px;
+                height: 16px;
+                width: 16px;
+            }
+            .or{
+                font-size: 13px;
+                color: #999;
+                font-weight: 600;
+            }
+            .or::before{
+                content: '';
+                background: #efefef;
+                display: block;
+                height: 2px;
+                width: 110px;
+                position: relative;
+                top: 11px;
+            }
+            .or::after{
+                content: '';
+                background: #efefef;
+                display: block;
+                height: 2px;
+                width: 110px;
+                position: relative;
+                left: 160px;
+                bottom: 10px;
+            }
+            .form-group{
+                margin-bottom: 6px;
+            }
+            .form-control{
+                background: #fafafa;
+                border: 1px solid #efefef;
+                font-size: 12px;
+            }
+            ::placeholder{
+                color: #999;
+            }
+            .btn{
+                width: 100%;
+                margin: 12px auto;
+                padding: 2px ;
+                font-weight: 600;
+            }
+            .btn-primary{
+                background-color: #3897f0;
+                border: 1px solid #3897f0;
+            }
+            .policy{
+                font-size: 12px;
+                color: #999;
+                font-weight: 400;
+            }
+        }
+        .col-bottom{
+            background: #fff;
+            border: 1px solid #e6e6e6;
+            margin: 10px;
+            width: 350px;
+            padding: 20px;
+        }
+    }
+}

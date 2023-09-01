@@ -1,0 +1,186 @@
+.container-login{
+    background-color: #fafafa;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    .left{  
+            width: 400px;
+            height: 581.15px;
+            background-image: url("https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk");
+            background-repeat: no-repeat;
+            background-size: 468.32px 634.15px;
+            background-position: -46px 0;
+            .screenshot img {
+                position: relative;
+                top: 27px;
+                left: 113px;
+            }
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+        margin-top: 12px;
+        max-width: 350px;
+        align-items: center;
+        .right-top{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            background-color: white;
+            border: 1px solid rgb(219, 219, 219);
+            padding: 10px 0px;
+            margin: 0px 0px 10px;
+            width: 350px;
+            height: 483px;
+            .error{
+                margin: 10px 40px;
+                text-align: center;
+                font-size: 14px;
+                color: #ed4956;
+                span{
+                    margin: 14px 0;
+                }
+            }
+            .logo{
+                background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yx/r/WtxJZZ3-9ZP.png);
+                background-position: 0px 0px;
+                background-size: 176px 186px;
+                width: 174px;
+                height: 50px;
+                background-repeat: no-repeat;
+                display: inline-block;
+                cursor: pointer;
+            }
+
+            .info{
+                display: flex;
+                flex-direction: column;
+                margin: 24px 0px 0px;
+                max-width:  268.4px; ;
+                input{
+                    border: 1px solid rgb(219, 219, 219);
+                    border-radius: 5px;
+                    margin-top: 5px;
+                    padding: 9px 0px 7px 8px;
+                    width: 268.4px;
+                    min-height: 37.6;
+                }
+                .submit{
+                    background-color:rgba(0, 149, 246, 1) ;
+                }
+                button{
+                    text-align: center;
+                    color: white;
+                    padding: 10px;
+                    background-color:rgba(0, 149, 246, 0.3);
+                    margin-top: 10px;
+                    border-radius: 5px;
+                    border: none;  
+                }
+                // button:hover{
+                //     background-color: rgb(245, 245, 245);
+                // }
+                .orther{
+                    display: flex;
+                    margin-top: 18px;
+                    flex-direction: row;
+                    align-items: center;
+                    .line{
+                        background-color: #bdbdbd;
+                        height: 1px;
+                        width: 123px;
+                    }
+                    .or{
+                        font-size: 13px;
+                        font-weight: 600;
+                        color: #8e8e8e;
+                        padding: 0px 18px 0px 18px;
+
+                    }
+                }
+            }
+            .orther-login{
+                text-align: center;
+                margin-top: 25px;
+                color: rgb(56, 81, 133);
+                font-weight: 600;
+                font-size: 14px;
+                cursor: pointer;
+                .facebook{
+                    display: inline-block;
+                    font: inherit;
+                    font-size: 100%;
+                    margin-right: 8px;
+                    position: relative;
+                    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png);
+                    top: 3px;
+                    vertical-align: baseline;
+                    background-repeat: no-repeat;
+                    background-position: -414px -259px;
+                    height: 16px;
+                    width: 16px;
+                }
+            }
+            .orther-password{
+                text-align: center;
+                margin: 12px 0px 0px;
+                font-size: 12px;
+                color: rgb(0, 55, 107);
+                cursor: pointer;
+            }
+        }
+        .right-button{
+            display: flex;
+            justify-content: center;
+            width: 350px;
+            height: 62.6px;
+            background-color: #fff;
+            margin: 0px 0px 10px;
+            padding: 10px 0px;
+            border: 1px solid rgb(219, 219, 219);
+            align-items: center;
+            
+            .sign-up{
+                display: flex;
+                justify-content: space-around;
+                margin: 15px;
+                font-size: 14px;
+                color: #262626;
+
+                button{
+                    border: none;
+                    background-color: #fff;
+                    color: #0095f6;
+                    font-weight: 600;
+                    cursor: pointer;
+                   font-size: 14px;
+
+                }
+            }
+        }
+
+        .app{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 400;
+            img{
+                height: 40px;
+                margin: 10px 0 10px 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
